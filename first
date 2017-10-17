@@ -1,4 +1,4 @@
-int num_of_pins = 5;
+йint num_of_pins = 5;
 
 
 
@@ -14,7 +14,7 @@ void setup() {
 
   // make arduino know the pins will be used as OUTPUT - will be high or low
 
-  for(int i = 0 ; i < 10;++i) pinMode(pins[i], OUTPUT);
+  for(int j= 0 ; j < 10;++j) pinMode(pins[j], OUTPUT);
 
 }
 
